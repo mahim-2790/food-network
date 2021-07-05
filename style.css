@@ -86,8 +86,9 @@ a {
 
 #about-image {
   padding-top: 5%;
-  width: 33%;
+  width: 30%;
   height: 90%;
+  margin-right: 5%;
 }
 #about-text {
   width: 40%;
