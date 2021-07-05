@@ -14,8 +14,16 @@ a {
 
 .head-text {
   color: #575757;
-  font-size: 48px;
+  font-size: 38px;
   font-weight: 700;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(rgba(251, 152, 76, 1), rgba(254, 71, 45, 1));
+  padding: 10px 30px;
+  border-radius: 30px;
 }
 /* -------------------------------nav-bar------------------------ */
 #nav-bar {
@@ -23,7 +31,6 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 0rem 7%;
-  background: rgba;
 }
 #logo {
   font-size: 32px;
@@ -47,8 +54,52 @@ a {
 /* ---------------------------------------------header-section--------------------- */
 #home {
   display: flex;
-  margin: 0% 2%;
-  padding: 3% 11%;
+  margin: 7% 0%;
+  padding: 0% 9%;
   align-items: center;
   justify-content: space-around;
+}
+
+#header-image {
+  height: 98vh;
+}
+#header-description h1 {
+  font-size: 48px;
+}
+
+#header-description .btn {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+/* ----------------------------------------------------------------about-section--------------------------- */
+
+#about {
+  margin: 7% 0%;
+  padding: 0% 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80vh;
+  background: url(./images/7.png) center center/cover no-repeat;
+}
+
+#about-image {
+  padding-top: 5%;
+  width: 33%;
+  height: 90%;
+}
+#about-text {
+  width: 40%;
+}
+
+#about-image img {
+  height: 100%;
+  width: 100%;
+  background: center center/cover;
+}
+
+#about-text a {
+  display: inline-block;
+  margin-top: 17%;
 }
