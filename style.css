@@ -8,15 +8,21 @@ a {
   text-decoration: none;
 }
 
-.clr-font {
+.clr-text {
   color: #fb984c;
+}
+
+.head-text {
+  color: #575757;
+  font-size: 48px;
+  font-weight: 700;
 }
 /* -------------------------------nav-bar------------------------ */
 #nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 4rem;
+  padding: 0rem 7%;
   background: rgba;
 }
 #logo {
@@ -37,4 +43,12 @@ a {
 
 #nav-links .link a {
   color: #575757;
+}
+/* ---------------------------------------------header-section--------------------- */
+#home {
+  display: flex;
+  margin: 0% 2%;
+  padding: 3% 11%;
+  align-items: center;
+  justify-content: space-around;
 }
