@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
@@ -13,7 +16,7 @@ a {
 }
 
 .head-text {
-  color: #575757;
+  color: #707070;
   font-size: 38px;
   font-weight: 700;
 }
@@ -65,6 +68,8 @@ a {
 }
 #header-description h1 {
   font-size: 48px;
+  color: #575757;
+  font-weight: 700;
 }
 
 #header-description .btn {
@@ -75,19 +80,19 @@ a {
 /* ----------------------------------------------------------------about-section--------------------------- */
 
 #about {
-  margin: 7% 0%;
+  margin: 7% 0% 3% 0%;
   padding: 0% 9%;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 80vh;
+  height: 90vh;
   background: url(./images/7.png) center center/cover no-repeat;
 }
 
 #about-image {
-  padding-top: 5%;
+  padding-top: 8%;
   width: 30%;
-  height: 90%;
+  height: 85%;
   margin-right: 5%;
 }
 #about-text {
@@ -103,4 +108,44 @@ a {
 #about-text a {
   display: inline-block;
   margin-top: 17%;
+}
+
+/* --------------------------------------------------------recepie-section------------------------------ */
+#recipies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 3% 6%;
+  height: 90vh;
+}
+
+#recepies-description {
+  text-align: center;
+}
+#recepies-description p {
+  padding: 2% 11%;
+}
+#reciepi-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.2);
+  padding: 1.25%;
+  width: 22.5%;
+  height: 92%;
+  border-radius: 30px;
+}
+
+.item-img {
+  height: 60%;
+}
+.item-img img {
+  width: 100%;
+  height: 100%;
+  background: center center/cover no-repeat;
+}
+.item-decription {
+  height: 38%;
 }
