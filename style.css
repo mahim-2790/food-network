@@ -33,7 +33,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2% 7%;
+  padding: 0% 7%;
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 #logo {
   font-size: 32px;
@@ -55,17 +58,16 @@ a {
 }
 
 #nav-links a {
-  color: #575757;
+  color: white;
   padding: 10px 15px;
   margin: 0rem 1.5rem;
-
   border-radius: 10px;
 }
 /* ---------------------------------------------header-section--------------------- */
 #home {
   display: flex;
   margin: 5% 0%;
-  padding: 0% 9%;
+  padding: 2.25% 9% 0%;
   align-items: center;
   justify-content: space-around;
 }
@@ -126,6 +128,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   margin: 4% 6%;
+  padding-top: 3%;
   height: 90vh;
 }
 
@@ -228,7 +231,7 @@ a {
 /* ----------------------------------------------------contact-section----------------------- */
 #contact {
   margin: 5% 0% 0%;
-  padding: 2% 5% 7%;
+  padding: 3% 5% 7%;
   text-align: center;
   background: #272c3a;
   color: #fb984c;
