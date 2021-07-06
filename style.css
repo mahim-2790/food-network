@@ -45,14 +45,21 @@ a {
   justify-content: space-between;
 }
 
-#nav-links .link {
-  margin: 0rem 1.5rem;
+#nav-links li {
   display: inline-block;
   list-style: none;
 }
+#nav-links a:hover {
+  background: linear-gradient(rgba(251, 152, 76, 1), rgba(254, 71, 45, 1));
+  color: #fff;
+}
 
-#nav-links .link a {
+#nav-links a {
   color: #575757;
+  padding: 10px 15px;
+  margin: 0rem 1.5rem;
+
+  border-radius: 10px;
 }
 /* ---------------------------------------------header-section--------------------- */
 #home {
@@ -219,18 +226,20 @@ a {
 }
 
 /* ----------------------------------------------------contact-section----------------------- */
-#contact-container {
+#contact {
   margin: 5% 0% 0%;
   padding: 2% 5% 7%;
   text-align: center;
   background: #272c3a;
   color: #fb984c;
+  display: flex;
+  flex-direction: column;
 }
 
-#contact-container h1 {
+#contact h1 {
   margin-bottom: 5%;
 }
-#contact {
+#contact-container {
   display: flex;
   justify-content: space-around;
   column-gap: 4%;
